@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto real</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap-grid.css"
+    />
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="/node_modules/font-awesome/css/font-awesome.css"
+    />
+    <link rel="stylesheet" href="/node_modules/font-awesome/fonts/*" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="n-font">
+        <!-- Uso del navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-personal2 sticky-top">
+      <div class="container-fluid px-5">
+        <a href="index.html" class="navbar-brand"
+          ><i class="fa fa-book text-personal"></i> PyE Project</a
+        >
+        <button
+          class="navbar-toggler my-2"
+          data-toggle="collapse"
+          data-target="#firstNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Botones del menú de navegación -->
+        <div class="collapse navbar-collapse" id="firstNavbar">
+          <ul class="navbar-nav ml-auto float-md-right mr-lg-3 mr-xl-3">
+            <div class="btn-group">
+              <button class="btn btn-sm btn-outline-personal ">
+                <a
+                  href="#head"
+                  class="nav-link text-personal2 text-uppercase"
+                  >Home</a
+                >
+              </button>
+              <button class="btn btn-sm btn-outline-personal d-md-none d-lg-block">
+                <a href="#" class="nav-link text-personal2 text-uppercase">Lore</a>
+              </button>
+              <button class="btn btn-sm btn-outline-personal">
+                <a href="#" class="nav-link text-personal2 text-uppercase">Lore</a>
+              </button>
+              <button class="btn btn-sm btn-outline-personal">
+                <li class="nav-item dropdown mr-2">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle text-personal2 text-uppercase"
+                    data-toggle="dropdown"
+                    >Personajes</a
+                  >
+                  <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Click 1</a>
+                    <a href="#" class="dropdown-item">Click 2</a>
+                    <a href="#" class="dropdown-item">Click 3</a>
+                  </div>
+                </li>
+              </button>
+              <button class="btn btn-sm btn-outline-personal">
+                <a href="#" class="nav-link text-personal2 text-uppercase"
+                  >Contacto</a
+                >
+              </button>
+            </div>
+          </ul>
+
+          <!-- Barra de busqueda en el menu -->
+          <form class="form-inline d-md-none d-lg-block mt-2 mt-md-0">
+            <input
+              type="text"
+              class="form-control w50"
+              placeholder="Busca algo aqui pajuo"
+            />
+            <button type="button" class="btn btn-personal2 ml-2 btn-sm my-2">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+        <!-- Header -->
+    <div
+      class="d-flex align-items-center justify-content-center bg-personal header"
+      id="head">
+      <div class="text-personal2 mx-4">
+        <img
+          src="dragon.svg"
+          alt="Dragon arrecho"
+          width="200vh"
+          class="my-sm-3 my-3"
+        />
+      </div>
+      <div class="p-2 my-2 text-personal2 w-50 text-justify 	d-none d-md-block">
+        <p class="small">
+          <h5 class="d-inline"><i class="fa fa-umbrella text-personal2"></i></h5>
+        <span class="ml-1">
+          Mira arriba, al cielo, al infinito. Asume que nunca lo alcanzarás, que nunca lo tocarás. Cree en las limitaciones y adopta el orden. Vuélvete uno con la sumisión y reconoce tu única labor en esta vida: servir a la Cumbre.
+        </span>
+          <br>
+          <footer class="h4 new-font">
+            ¡Por la extinción de la anarquía! 
+          </footer>
+        </p>
+      </div>
+    </div>
+
+            <!-- Contenido principal de la página -->
+        <div class="container my-2" id="firstContent">
+          
+              <!-- Imagen>Leyenda>Sidebar -->
+          <div class="text-personal2 bg-personal2 d-flex align-items-center" style="height: 24em" >
+            <div class="col-4 bp2" style="background: url('/imgs/face.jpg') center/cover; height: 24em; border-color: #CED6CD;">
+            </div>
+
+            <div class="col text-justify overflow-auto" style="height: 20em;">
+              <h2>
+                <i class="fa fa-quote-left"></i>
+              </h2>
+              <p class="h6 px-4 n-font">
+      Los  <strong>árboles procreadores</strong> son tan únicos como valiosos en el mundo de XXX, haciendo que la tentación se escurra por los ojos del codicioso y malintencionado. Criminales de todas las hábitats han tratado de hacerse con su control, pero el vasto bosque donde residen está custodiado por Troncos Menores, una feroz especie arbórea cuyo único propósito es resguardar la integridad de los procreadores. 
+      <br><br>
+      El rumor de un <strong>Cazador Oscuro</strong> capaz de aniquilar a los Troncos Menores hizo eco en los lugares más recónditos del hábitat Norte, obligando a la Cumbre a incrementar la seguridad de los procreadores. No hay informes oficiales todavía.
+              </p>
+              <h2>
+                <i class="fa fa-quote-right float-right"></i>
+              </h2>
+            </div>
+
+            <div class="col-2 bg-personal overflow-auto d-none d-lg-block p-2 m-2" style="height: 22em;">
+              <h3 class="new-font">— Ahogado</h3>
+              <p class="text-justify">
+                Dejé de respirar. No me di cuenta de cuando inició o de qué lo causó, pero mi garganta se bloqueó y mis manos eran incapaces de mejorar la situación. La desesperación empezó a recorrer cada fibra de mi ser con una vehemencia digna de un concierto de pájaros carroñeros, peligrosos, fríos y en grandes cantidades. 
+                <br><br>
+                Me costó infiernos hallar algún objeto que pudiera sacarme de mi tormento, hasta que la hoja de aquel desaliñado cuchillo se cruzó con mi mirada. Sonreí. Lo tomé y exhalé el poco aire que había conservado durante mi asfixia, aliviado. Atravesé con él mi garganta, pero el hioides era muy resistente, me tomó varios intentos hacer una abertura suficiente.
+                <br><br>
+                Pero lo conseguí. Al fin podía respirar. La presión había desaparecido, los problemas también. La ansiedad era un recuerdo y el dolor un tren que ya había dejado pasar. Ahora sólo quedaba la oscuridad. 
+              </p>
+                <p class="text-center bg-personal2 text-personal3 p-2"><strong>La dulce y cálida oscuridad</strong></p>
+            </div>
+          </div>
+
+              <!-- Fichas de los protagonistas -->
+          <div class="my-2 d-flex justify-content-between flex-a">
+            <div class="card bg-personal2 text-personal2 son-flex">
+                <img src="https://i.gyazo.com/2b61b0ea4dcd5aa0032b91ce92a9ade5.png" class="card-img-top" alt="Paisajote" style="height: 12em;">
+                <div class="card-body">
+                  <h5 class="card-title text-personal3">Odio los árboles</h5>
+                  <p class="card-text">Me privan de luz, me separan del inmenso mundo que hay fuera y sin razón aparente, hacen que nazcan cada vez más familiares de mierda en mi clan. Para colmo, hay uno en cada esquina.</p>
+                  <p class="card-text"><small class="text-personal2">— Nota de Ulises, un híbrido disfuncional.</small></p>
+                </div>
+            </div>
+            <div class="card bg-personal2 text-personal2 son-flex">
+                <img src="https://i.gyazo.com/6630f9b6d8febc4cd79634e2f52e33b3.png" class="card-img-top" alt="Paisajote" style="height: 12em;">
+                <div class="card-body">
+                  <h5 class="card-title text-personal">Amo las hojas de roble</h5>
+                  <p class="card-text">Tienen un aroma cálido y revitalizador, brillan en la oscuridad y son la única cura para la enfermedad degenerativa de mi maestra. Me cuesta creer todavía que sólo se consiguen al otro lado del mapa.</p>
+                  <p class="card-text"><small class="text-personal2">— Carta de Eva, una cambiaformas organizada.</small></p>
+                </div>
+            </div>
+          </div>
+
+              <!-- Sidebar/Leyenda/Imagen -->
+          <div class="text-personal2 bg-personal2 d-flex align-items-center" style="height: 24em" >
+            <div class="col-3 bg-personal4 text-personal4 overflow-auto d-none d-lg-block m-3" style="height: 22em;">
+              <img src="/imgs/drag.jpg" alt="Bigdrag" style="width: 120%; margin: 0 -1em;" >
+              <h3 class="new-font-claro mt-2">— Servus</h3>
+              <p class="text-justify">
+                
+              </p>
+                <p class="text-center bg-personal2 p-2 text-personal"><strong>La dulce y cálida oscuridad</strong></p>
+            </div>
+
+            <div class="col text-justify overflow-auto" style="height: 23em;">
+              <h2>
+                <i class="fa fa-quote-left"></i>
+              </h2>
+              <p class="h6 px-4 n-font">
+      Los territorios aledaños a <strong>Capital</strong> han sido sumamente naturales desde su fundación. Bosques, lagos y prados despejados constituyen este vasto y prolífico anillo geográfico, que también cuenta con las montañas más altas y los precipicios más profundos, tan grandes que son la única vía regular que conecta con el <strong>Bajo Mundo</strong>. 
+      <br><br>
+      La seguridad que hay en los extremos siempre ha sido digna de admirar, ya que hay puntos de control cada cincuenta metros y una enorme valla que separa el territorio del gran abismo, porque la <strong>Cumbre</strong> no quiere que nadie tenga acceso al Bajo Mundo. Después de todo, allí operan todos los criminales peligrosos, desde <strong>Cazadores Oscuros</strong> hasta cambiaformas corrompidos por sangre de <strong>Praescius</strong>.
+              </p>
+              <h2>
+                <i class="fa fa-quote-right float-right"></i>
+              </h2>
+            </div>
+            <div class="col-4 bp1 align-self-stretch " style="background: url('/imgs/a2.jpg') center/cover; height: 24em; border-color: #CED6CD;">
+            </div>
+            
+          </div>
+
+              <!-- Imagen>Leyenda>Ahogados -->
+         
+            </div>
+
+              <!-- Footer de la página -->  
+    <footer class="footer d-flex align-items-center justify-content-center flex-column bg-personal text-personal2">
+        <div class="futer h2">
+        <a href="#"><i class="fa fa-facebook text-personal2" ></i></a>
+        <a href="#"><i class="fa fa-twitter text-personal2"></i></a>
+        <a href="#"><i class="fa fa-instagram text-personal2"></i></a>
+        <a href="#"><i class="fa fa-github text-personal2"></i></a>
+        <a href="#"><i class="fa fa-linkedin text-personal2"></i></a>
+        </div>
+        <p class="d-block small">
+          <strong>© 2020 Copyright:</strong> Designed by Ernesto Contreras
+        </p>
+      </footer>
+
+
+
+
+    <!-- Bootstrap required scripts -->
+    <script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="/node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

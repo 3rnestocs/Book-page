@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
+
+/* PALETA DE COLORES
+
+Color verde oscuro: #26464D
+Color marrón rojizo: #5D504B
+Color blanco: #CED6CD
+Color negro: #0f0e0f */
+ 
+.footer {
+  height: auto;
+  padding: 0.7em 0 0 0;
+}
+
+.futer > a {
+  margin: 0 0.3rem;
+}
+
+/* Boton de firma */
+
+#buton {
+  width: 7em;
+  height: 14em;
+}
+
+body {
+    /* font-family: 'Comic Neue', cursive; */
+    background: #5D504B;
+}
+
+.bp1 {
+  border: solid 1px hidden;
+  border-radius: 50% 0 0 50%;
+}
+
+.bp2 {
+  border: solid 1px hidden;
+  border-radius: 0 50% 50% 0;
+}
+
+.flex-a {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.son-flex {
+  flex: 1 1 34em;
+  margin: 3px;
+}
+
+.new-font {
+    font-family: 'Asul', sans-serif;
+    text-shadow: 3px 3px 5px #092e2e; 
+}
+
+.new-font-claro {
+  font-family: 'Asul', sans-serif;
+  text-shadow: 3px 3px 5px #5c5454; 
+}
+
+.n-font {
+    font-family: 'Rosario', sans-serif;
+}
+
+/* #firstContent {
+    opacity: 0.91;
+} */
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+  /* Color personal para los botones */
+
+  .btn-personal2 {
+    color: #CED6CD;
+    background-color: #5D504B;
+    border-color: #5D5E4B;
+  }
+  
+  .btn-personal2:hover {
+    color: #CED6CD;
+    background-color: #97857e;
+    border-color: #5D5E4B;
+  }
+
+  .btn-outline-personal {
+    color: #97857e;
+    border-color: #644f46;
+  }
+  
+  .btn-outline-personal:hover {
+    color: #212529;
+    background-color: #97857e;
+    border-color: #5c4841;
+  }
+  
+  .btn-outline-personal:focus, .btn-outline-personal.focus {
+    box-shadow: 0 0 0 0.2rem #5c4841;
+  }
+
+.btn-personal {
+    color: #CED6CD;
+    background-color: #2c646b;
+    border-color: #5D5E4B;
+  }
+  
+  .btn-personal:hover {
+    color: #CED6CD;
+    background-color: #38919c;
+    border-color: #2c6b74;
+  }
+
+    /* Backgrounds personalizados */
+  .bg-personal {
+    background-color: #26464D !important;
+  }
+  
+  .bg-personal2 {
+    background-color: #0f0e0f !important;
+  }
+
+  .bg-personal3 {
+    background-color: #5D504B !important;
+  }
+ 
+  .bg-personal4 {
+    background-color: #97857e !important;
+  }
+  
+    /* Font color personalizados */
+  .text-personal {
+    color: #5D504B !important;
+  }
+  
+  a.text-personal:hover, a.text-personal:focus {
+    color: #4b2323 !important;
+  }
+
+  .text-personal2 {
+    color: #CED6CD !important;
+  }
+
+  .text-personal3 {
+    color: #26464D !important;
+  }
+
+  .text-personal4 {
+    color: #0f0e0f !important;
+  }
+  
+  a.text-personal2:hover, a.text-personal2:focus {
+    color: #272727 !important;
+  }
+
+  @media only screen and (min-width: 700px) {
+    .son-flex {
+      flex: 1 1 20em;
+      margin: 3px;
+    }
+  }
