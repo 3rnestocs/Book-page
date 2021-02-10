@@ -2,7 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
 
-/* PALETA DE COLORES
+ /*
+ 
+ PALETA DE COLORES
 
 Color verde oscuro: #26464D
 Color marrón rojizo: #5D504B
@@ -60,7 +62,7 @@ body {
   text-shadow: 3px 3px 5px #5c5454; 
 }
 
-.n-font {
+.main-font {
     font-family: 'Rosario', sans-serif;
 }
 
